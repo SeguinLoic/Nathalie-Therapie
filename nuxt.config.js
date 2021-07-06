@@ -1,7 +1,7 @@
 export default {
     target: 'static',
     head: {
-        title: 'Title de mon site',
+        title: 'Nathalie Thérapie | Thérapeute en hypnose et soins énergétiques à Annecy',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1'},
