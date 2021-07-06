@@ -14,3 +14,20 @@
         </div>
     </div>
 </template>
+
+<style>
+@media screen and (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+    }
+    .tile-contact {
+        padding: 15px 0px;
+    }
+    #logo {
+        width: 215px;
+    }
+    .slogan {
+        font-size: 1.3em;
+    }
+}
+</style>
