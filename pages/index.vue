@@ -7,9 +7,9 @@
                 <img src='~/assets/images/phone.svg'>
                 <span>06 10 64 63 23</span>
             </a>
-            <a href="mailto:nathaliecartiertherapie@gmail.com" class="tile-contact">
+            <a href="mailto:contact@nathalietherapie.fr" class="tile-contact">
                 <img src='~/assets/images/mail.svg'>
-                <span>nathaliecartiertherapie@gmail.com</span>
+                <span>contact@nathalietherapie.fr</span>
             </a>
         </div>
     </div>
