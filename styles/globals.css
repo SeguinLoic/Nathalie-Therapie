@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.bloc {
+  width: 100%
+}

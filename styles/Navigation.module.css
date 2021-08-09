@@ -1,0 +1,15 @@
+.navigation {
+    border-bottom: 1px solid #e2e2e2;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.menu {
+    display: flex;
+}
+.menu a {
+    padding: 10px 15px;
+}
