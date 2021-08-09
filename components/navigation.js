@@ -7,9 +7,12 @@ import styles from "../styles/Navigation.module.css"
 export default function Navigation() {
     return (
         <div className={styles.navigation}>
-            <Link href="/" passHref>
-                <Image src="/logo.svg" alt="Vercel Logo" width={350} height={85} />
-            </Link>
+            <div className={styles.logo}>
+                <Image src="/logo-3.svg" alt="Vercel Logo" width={120} height={120} />
+                <div className={styles.logoText}>
+                    <span>NATHALIE CARTIER</span> Thérapeute Médecines Douces
+                </div>
+            </div>
             <nav className={styles.menu}>
                 <Link href="/">Accueil</Link>
                 <Link href="/">À propos</Link>

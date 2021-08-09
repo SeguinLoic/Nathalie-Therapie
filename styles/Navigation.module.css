@@ -5,11 +5,30 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 20px;
+    padding: 0px 50px;
 }
 .menu {
     display: flex;
 }
 .menu a {
     padding: 10px 15px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo > div {
+    overflow: visible !important;
+}
+.logo img {
+    transform: translateY(15px);
+}
+.logoText {
+    padding-left: 15px;
+    line-height: 1.4em;
+}
+.logoText > span {
+    display: block;
+    font-weight: 700;
 }

@@ -4,6 +4,9 @@ import styles from '../styles/Index.module.css'
 
 import Navigation from "../components/navigation.js"
 import Slider from  "../components/slider.js"
+import Propos from  "../components/propos.js"
+import Prestations from  "../components/prestations.js"
+import Contact from  "../components/contact.js"
 
 export default function Home() {
   return (
@@ -15,20 +18,15 @@ export default function Home() {
       </Head>
 
       <Navigation />
+
       <Slider />
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+      <Propos />
+
+      <Prestations />
+
+      <Contact />
+
     </div>
   )
 }
