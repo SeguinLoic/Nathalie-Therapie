@@ -1,8 +1,8 @@
 .container {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
   height: 100vh;
+  background-image: url("../public/fond-header.png");
+}
+.content {
+  padding-top: 90px;
 }
