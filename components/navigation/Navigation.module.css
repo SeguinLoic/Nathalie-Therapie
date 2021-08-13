@@ -1,0 +1,123 @@
+.navigation {
+    border-bottom: 1px solid #e2e2e2;
+    height: 90px;
+    width: 100%;
+    display: -moz-box;
+    display: flex;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    -moz-box-align: center;
+    align-items: center;
+    padding: 0px 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.3s;
+    z-index: 5;
+}
+.menu {
+    display: flex;
+    height: 100%;
+}
+.menu a {
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+/*.menu a:after {
+    content: '';
+    width: 0px;
+    height: 4px;
+    background-color: #ff860b;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s;
+}
+.menu > a:hover::after  {
+    width: 25px;
+}
+.menu > a.active::after  {
+    width: 25px;
+}*/
+
+.menu > a > span {
+    width: 0px;
+    height: 4px;
+    background-color: #ff860b;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s;
+}
+
+.menu a:hover > span  {
+    width: 25px;
+}
+.menu a.scrollActive > span {
+    width: 25px;
+}
+
+.menu a.scrollActive  {
+    background-color: #eaeaea;
+}
+
+a.scrollActive > span {
+    width: 25px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo > div {
+    overflow: visible !important;
+}
+.logoImg {
+    transform: translateY(15px);
+    transition: all 0.3s;
+}
+.logoText {
+    padding-left: 15px;
+    line-height: 1.4em;
+    transition: all 0.3s;
+}
+.logoText > span {
+    display: block;
+    font-weight: 700;
+}
+
+/* -- -- STICKY -- -- */
+.navigation.sticky {
+    height: 80px;
+    background-color: #fff;
+}
+.navigation.sticky .logoImg {
+    width: 75px !important;
+    min-width: 70px !important;
+    transform: translateY(0px);
+}
+.navigation.sticky .logoText {
+    padding-left: 0px;
+}
+
+/* -- -- MEDIA QUERIES -- -- */ 
+
+/* ///////////////////////////////////////////////// 1500PX */
+@media screen and (max-width: 1500px) {
+  .navigation {
+    padding: 0px 150px;
+  }
+}
+
+/* ///////////////////////////////////////////////// 1400PX */
+@media screen and (max-width: 1500px) {
+  .navigation {
+    padding: 0px 100px;
+  }
+}

@@ -1,0 +1,19 @@
+.primaryButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    padding: 20px 35px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1em;
+    background-color: #ff860b;
+    color: #000;
+    border: none;
+    margin-top: 15px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .primaryButton:hover {
+    background-color: #ff7f00;
+  }

@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import Link from "next/link"
 
-import styles from "../../styles/Navigation.module.css"
+import { Link, animateScroll as scroll} from "react-scroll";
+
+import styles from "./Navigation.module.css"
 
 export default function Navigation() {
     
@@ -17,16 +18,16 @@ export default function Navigation() {
     return (
         <div className={`${styles.navigation} ${isSticky ? styles.sticky : ""}`}>
             <div className={styles.logo}>
-                <Image className={styles.logoImg} src="/logo-3.svg" alt="Vercel Logo" width={120} height={120} />
+                <Image className={styles.logoImg} src="/logo.svg" alt="Vercel Logo" width={120} height={120} />
                 <div className={styles.logoText}>
                     <span>NATHALIE CARTIER</span> Thérapeute Médecines Douces
                 </div>
             </div>
             <nav className={styles.menu}>
-                <Link href="/">Accueil</Link>
-                <Link href="/">À propos</Link>
-                <Link href="/">Mes prestations</Link>
-                <Link href="/">Contact</Link>
+                <Link activeClass="scrollActive" to="intro" spy={true} smooth={true}>Intro<span></span></Link>
+                <Link activeClass="scrollActive" to="propos" spy={true} smooth={true}>À propos<span></span></Link>
+                <Link activeClass="scrollActive" to="prestations" spy={true} smooth={true}>Mes prestations<span></span></Link>
+                <Link activeClass="scrollActive" to="contact" spy={true} smooth={true}>Contact<span></span></Link>
             </nav>
         </div>
     )
