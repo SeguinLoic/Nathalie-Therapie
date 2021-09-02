@@ -1,11 +1,16 @@
 import React from "react"
 
+import styles from "../../styles/Contact.module.css"
+
 export default function Contact() {
     return (
-        <div className="bloc" id="contact">
-            <h2>Coordonnées et contact</h2>
-            <div className="row">
-                <div className="col col60">
+        <div className={`${styles.blocContact} bloc`} id="contact">
+            <a href="tel:0610646323"><span className={styles.titleThin}>Contactez votre thérapeute</span>06 10 64 63 23</a>
+        </div>
+    )
+}
+
+/*
                     <form id="formContact">
                         <div className="field">
                             <label for="nom">Nom</label>
@@ -16,7 +21,7 @@ export default function Contact() {
                             <input type="text" id="prenom"></input>
                         </div>
                         <div className="field">
-                            <label for="phone">Téléphone</label>
+                            <label htmlFor="phone">Téléphone</label>
                             <input type="text" id="phone"></input>
                         </div>
                         <div className="field">
@@ -29,17 +34,4 @@ export default function Contact() {
                         </div>
                         <button>Envoyer</button>
                     </form>
-                </div>
-                <div className="col col40">
-                    <p className="content">
-                        Je consulte au Centre de thérapie La Rebiolle
-                        47 quater avenue de Genève
-                        74000 Annecy
-                        vous pouvez me contacter au
-                        0610646323
-                    </p>
-                </div>
-            </div>
-        </div>
-    )
-}
+                    */

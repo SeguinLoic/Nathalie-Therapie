@@ -7,6 +7,7 @@ import Intro from "./sections/intro.js"
 import Propos from "./sections/propos.js"
 import Prestations from "./sections/prestations.js"
 import Contact from "./sections/contact.js"
+import Footer from "../components/footer/footer.js"
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <Prestations />
         <Contact />
       </div>
+      <Footer />
 
     </div>
   )

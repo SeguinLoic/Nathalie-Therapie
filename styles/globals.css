@@ -41,6 +41,8 @@ p{
 .col50 { width: 50%; }
 .col60 { width: 60%; }
 .col80 { width: 80%; }
+.col90 { width: 90%; }
+.col100 { width: 100%; }
 .content {
   line-height: 1.7em;
 }

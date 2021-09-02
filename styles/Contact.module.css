@@ -1,0 +1,39 @@
+.blocContact {
+    background-image: url(/therapist.jpg);
+    background-position: 50% 50%;
+    position: relative;
+    padding: 0px; 
+}
+.blocContact:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ff860b;
+    opacity: 0.7;
+}
+.blocContact a {
+    position: relative;
+    z-index: 1;
+    padding: 100px 275px;
+    display: flex;
+    font-size: 2em;
+    font-weight: 700;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5em;
+    transition: all 0.3s;
+    flex-direction: column;
+}
+.blocContact a:hover {
+    background-color: rgba(255, 134, 11, 0.69);
+}
+.titleThin {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 5px;
+}
