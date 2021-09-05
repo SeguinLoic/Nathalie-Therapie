@@ -1,0 +1,39 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo > div {
+    overflow: visible !important;
+}
+.logoImg {
+    transform: translateY(15px);
+    transition: all 0.3s;
+}
+.logoText {
+    padding-left: 15px;
+    line-height: 1.4em;
+    transition: all 0.3s;
+}
+.logoText > span {
+    display: block;
+    font-weight: 700;
+}
+
+/* -- -- FOOTER -- -- */
+.logo.footer {
+    justify-content: flex-start;
+}
+.logo.footer img {
+    transform: none;
+}
+
+/* -- -- STICKY -- -- */ 
+.logo.sticky .logoImg {
+    width: 75px !important;
+    min-width: 70px !important;
+    transform: translateY(0px);
+}
+.logo.sticky .logoText {
+    padding-left: 0px;
+}

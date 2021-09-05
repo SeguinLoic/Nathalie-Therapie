@@ -1,0 +1,23 @@
+.footer {
+    padding: 50px 200px;
+    display: flex;
+    align-items: center;
+}
+.titleFooter {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #ff7887;
+    padding-bottom: 15px;
+}
+.colCoord {
+    padding: 0px 10px;
+    display: flex;
+    line-height: 1em;
+    align-items: center;
+}
+.colCoord:not(:last-child) {
+    padding-bottom: 10px;
+}
+.picto {
+    padding-right: 8px !important;
+}

@@ -23,7 +23,7 @@ export default function Home() {
       <div className="content">
         <Slider />
         <Intro />
-        <Propos />
+        {/*<Propos />*/}
         <Prestations />
         <Contact />
       </div>
