@@ -37,3 +37,31 @@
     font-size: 0.8em;
     letter-spacing: 5px;
 }
+
+/* ///////////////////////////////////////////////// 1500PX */
+@media screen and (max-width: 1500px) {
+    .blocContact a {
+      padding: 100px 150px;
+    }
+  }
+  
+/* ///////////////////////////////////////////////// 1400PX */
+@media screen and (max-width: 1400px) {
+    .blocContact a {
+        padding: 100px 75px;
+    } 
+}
+  
+/* ///////////////////////////////////////////////// 1400PX */
+@media screen and (max-width: 1239px) {
+    .blocContact a {
+        padding: 100px 50px;
+    }
+}
+
+/* ///////////////////////////////////////////////// 768PX */
+@media screen and (max-width: 768px) {
+    .blocContact a {
+        padding: 75px 35px;
+    }
+}

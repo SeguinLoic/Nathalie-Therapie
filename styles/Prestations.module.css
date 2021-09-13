@@ -14,7 +14,7 @@
   font-weight: 700;
   padding-bottom: 15px;
   color: #ff7887;
-  padding-top: 125px;
+  padding-top: 165px;
 }
 .tarifs {
   font-style: italic;
@@ -46,4 +46,15 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.colPlant {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+/* ///////////////////////////////////////////////// 768PX */
+@media screen and (max-width: 768px) {
+  .colPresta:last-child {
+    margin-bottom: 0px;;
+  }
 }

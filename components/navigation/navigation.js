@@ -19,10 +19,10 @@ export default function Navigation() {
         <div className={`${styles.navigation} ${isSticky ? styles.sticky : ""}`}>
             <Logo sticky={isSticky}/>
             <nav className={styles.menu}>
-                <Link activeClass="scrollActive" to="intro" spy={true} smooth={true}>Intro<span></span></Link>
-                <Link activeClass="scrollActive" to="propos" spy={true} smooth={true}>À propos<span></span></Link>
-                <Link activeClass="scrollActive" to="prestations" spy={true} smooth={true}>Mes prestations<span></span></Link>
-                <Link activeClass="scrollActive" to="contact" spy={true} smooth={true}>Contact<span></span></Link>
+                <Link activeClass="scrollActive" to="intro" spy={true} smooth={true} className={styles.notMobile}>Intro<span></span></Link>
+                <Link activeClass="scrollActive" to="propos" spy={true} smooth={true} className={styles.notMobile}>À propos<span></span></Link>
+                <Link activeClass="scrollActive" to="prestations" spy={true} smooth={true} className={styles.notMobile}>Mes prestations<span></span></Link>
+                <Link activeClass="scrollActive" to="contact" spy={true} smooth={true} >Contact<span></span></Link>
             </nav>
         </div>
     )

@@ -34,9 +34,13 @@ p{
   position: relative;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  margin: 0px 15px;
 }
 .col20 { width: 20%; }
 .col25 { width: 25%; }
+.col20 { width: 20%; }
+.col30 { width: 30%; }
 .col33 { width: 33%; }
 .col40 { width: 40%; }
 .col50 { width: 50%; }
@@ -55,6 +59,9 @@ h1, h2, h3 {
 }
 h1 { font-size: 1.8em; }
 h2 { font-size: 1.6em; }
+.center {
+  text-align: center;
+}
 
 /* -- -- MEDIA QUERIES -- -- */ 
 
@@ -66,8 +73,34 @@ h2 { font-size: 1.6em; }
 }
 
 /* ///////////////////////////////////////////////// 1400PX */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1400px) {
   .bloc {
-    padding: 75px 100px;
+    padding: 75px 75px;
+  } 
+}
+
+/* ///////////////////////////////////////////////// 1239PX */
+@media screen and (max-width: 1239px) {
+  .bloc {
+    padding: 75px 50px;
+  }
+}
+
+/* ///////////////////////////////////////////////// 768PX */
+@media screen and (max-width: 768px) {
+  .col {
+    width: 100%;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .bloc {
+    padding: 50px 35px;
+  }
+  .col:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  .dispNone {
+    display: none;
   }
 }

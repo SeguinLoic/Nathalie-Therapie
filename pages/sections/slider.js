@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { Link, animateScroll as scroll} from "react-scroll";
 
 import PrimaryButton from "../../components/buttons/primary/primary-button.js"
 
@@ -9,8 +10,8 @@ export default function Slider() {
   return (
     <div className={`${styles.slider} bloc`}>
       <div className={`col col40 ${styles.coltext}`}>
-        <span className={styles.titleSlider} >Envie de vous sentir léger ?</span>
-        <PrimaryButton text="Contactez votre thérapeute" page="/"/>
+        <span className={styles.titleSlider} >Reprenez le contrôle de votre vie</span>
+        <PrimaryButton text="Contactez votre thérapeute" page="/#contact"/>
       </div>
       <div className="col col60">
         <div className={styles.figures}>

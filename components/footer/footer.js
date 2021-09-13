@@ -1,5 +1,6 @@
 import React from "react"
 import Image from "next/image"
+import Link from "next/link"
 
 import Logo from "../logo/logo.js"
 
@@ -22,14 +23,18 @@ export default function Footer() {
                 <div className="col col33">
                 <span className={styles.titleFooter}>Coordonnées</span>
                 <div className="col">
-                    <p className={`content ${styles.colCoord}`}>
-                    <Image src="/smartphone.svg" width={30} height={30} alt="smartphone" className={styles.picto} />
-                    06 10 64 63 23 
-                    </p>
-                    <p className={`content ${styles.colCoord}`}>
-                    <Image src="/envelope.svg" width={30} height={30} alt="envelope" className={styles.picto}/>
-                    contact@nathalietherapie.fr
-                    </p>
+                    <Link href="tel:0610646323">
+                        <p className={`content ${styles.colCoord} ${styles.linkFooter}`}>
+                        <Image src="/smartphone-orange.svg" width={30} height={30} alt="smartphone" className={styles.picto} />
+                        06 10 64 63 23 
+                        </p>
+                    </Link>
+                    <Link href="mailto:contact@nathalietherapie.fr">
+                        <p className={`content ${styles.colCoord} ${styles.linkFooter}`}>
+                        <Image src="/envelope-orange.svg" width={30} height={30} alt="envelope" className={styles.picto}/>
+                        contact@nathalietherapie.fr
+                        </p>
+                    </Link>
                     </div>
                 </div>
             </div>

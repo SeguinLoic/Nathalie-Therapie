@@ -6,12 +6,14 @@ import styles from "../../styles/Prestations.module.css"
 export default function Prestations() {
     return (
       <div className="bloc" id="prestations">
-          <h2>Mes prestations</h2>
+          <h2 className="center">Mes prestations</h2>
           <div className="row">
-            <div className="col col33"></div>
-            <div className={`col col33 ${styles.colPresta}`}>
+            <div className={`col col20 ${styles.colPlant} dispNone`}>
+              <Image src="/plant.svg" width={150} height={300} alt="Mains" />
+            </div>
+            <div className={`col col30 ${styles.colPresta}`}>
                 <div className={styles.imageParent}>
-                  <Image src="/hands.jpg" width={900} height={600} layout="responsive" alt="Mains" />
+                  <Image src="/hands-2.jpg" width={900} height={600} layout="responsive" alt="Mains" />
                 </div>
                 <p className={styles.titlePresta}>Votre séance de soins</p>
                 <p className="content">Votre séance sera de 1 heure environ
@@ -19,9 +21,9 @@ export default function Prestations() {
                 </p>
                 <p className={styles.tarifs}>70€</p>
             </div>
-            <div className={`col col33 ${styles.colPresta}`}>
+            <div className={`col col30 ${styles.colPresta}`}>
                 <div className={styles.imageParent}>
-                  <Image src="/cigaret.jpg" width={900} height={600} layout="responsive" alt="Cigarette" />
+                  <Image src="/cigaret-2.jpg" width={900} height={600} layout="responsive" alt="Cigarette" />
                 </div>
                 <p className={styles.titlePresta}>Votre séance addiction</p>
                 <p className="content">
@@ -30,6 +32,7 @@ export default function Prestations() {
                 </p>
                 <p className={styles.tarifs}>90€</p>
             </div>
+            <div className="col col20 dispNone"></div>
           </div>
       </div>
     )

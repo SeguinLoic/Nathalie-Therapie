@@ -68,8 +68,25 @@ a.scrollActive > span {
 }
 
 /* ///////////////////////////////////////////////// 1400PX */
-@media screen and (max-width: 1500px) {
-  .navigation {
-    padding: 0px 100px;
-  }
+@media screen and (max-width: 1400px) {
+    .navigation {
+      padding: 0px 100px;
+    }
+}
+
+/* ///////////////////////////////////////////////// 1239PX */
+@media screen and (max-width: 1239px) {
+    .navigation {
+      padding: 0px 50px;
+    }
+}
+
+/* ///////////////////////////////////////////////// 900PX */
+@media screen and (max-width: 900px) {
+    .notMobile {
+        display: none !important;
+    }
+    .navigation {
+        padding: 0px 35px;
+      }
 }

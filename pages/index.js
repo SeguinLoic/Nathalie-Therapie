@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       <div className="content">
         <Slider />
-        <Intro />
+        {/*<Intro />*/}
         {/*<Propos />*/}
         <Prestations />
         <Contact />
