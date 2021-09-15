@@ -90,3 +90,17 @@ a.scrollActive > span {
         padding: 0px 35px;
       }
 }
+
+/* ///////////////////////////////////////////////// 600PX */
+@media screen and (max-width: 600px) {
+    .navigation {
+        padding: 0px 25px;
+    }
+}
+
+/* ///////////////////////////////////////////////// 450PX */
+@media screen and (max-width: 450px) {
+    .navigation {
+        padding: 0px 15px;
+    }
+}

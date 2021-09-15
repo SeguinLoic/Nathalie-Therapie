@@ -31,18 +31,16 @@
   width: 450px;
 }
 .figures > div:first-child {
-  left: 0;
-  transform: translateX(20%) rotate(-2deg);
+  left: 50%;
+  transform: translateX(-90%) rotate(-2deg);
 }
 .figures > div:last-child {
-  right: 0;
-  transform: translateX(-20%) translateY(10%) rotate(3deg);
+  right: 50%;
+  transform: translateX(90%) translateY(10%) rotate(3deg);
 }
 .man {
   animation-delay: 0.5s;
   animation: man 4s infinite;
-  max-width: 400px !important;
-  width: 400px !important;
 }
 .woman {
   animation: woman 4s infinite;
@@ -86,20 +84,17 @@
 /* ///////////////////////////////////////////////// 1400PX */
 @media screen and (max-width: 1400px) {
   .figures > div:first-child {
-    transform: translateX(10%) rotate(-2deg);
+    transform: translateX(-80%) rotate(-2deg);
   }
   .figures > div:last-child {
-    transform: translateX(-10%) translateY(10%) rotate(3deg);
+    transform: translateX(80%) translateY(10%) rotate(3deg);
   }
 }
 
 /* ///////////////////////////////////////////////// 1239PX */
 @media screen and (max-width: 1239px) {
-  .figures > div:first-child {
-    transform: translateX(0%) rotate(-2deg);
-  }
-  .figures > div:last-child {
-    transform: translateX(0%) translateY(10%) rotate(3deg);
+  .slider {
+    background-position: 70% 80%;
   }
 }
 
@@ -115,10 +110,10 @@
     height: 350px;
   }
   .figures > div:first-child {
-    transform: translateX(-20%) rotate(-2deg);
+    transform: translateX(-70%) rotate(-2deg);
   }
   .figures > div:last-child {
-    transform: translateX(15%) translateY(10%) rotate(3deg);
+    transform: translateX(70%) translateY(10%) rotate(3deg);
   }
 }
 
@@ -127,5 +122,52 @@
   .slider {
     flex-direction: column-reverse;
     padding-top: 135px;
+    background-position: 70% 120%;
+    background-repeat: no-repeat;
+  }
+  .figures > div:first-child {
+    transform: translateX(-80%) rotate(-2deg);
+  }
+  .figures > div:last-child {
+    transform: translateX(80%) translateY(10%) rotate(3deg);
+  }
+}
+
+/* ///////////////////////////////////////////////// 600PX */
+@media screen and (max-width: 600px) {
+  .figures > div:first-child {
+    transform: translateX(-70%) rotate(-2deg);
+  }
+  .figures > div:last-child {
+    transform: translateX(70%) translateY(10%) rotate(3deg);
+  }
+  .figures > div {
+    width: 300px;
+  }
+  .figures > div:last-child > div:first-child  {
+    max-width: 100% !important;
+  }
+  .slider {
+    background-position: 70% 160%;
+  }
+}
+
+/* ///////////////////////////////////////////////// 450PX */
+@media screen and (max-width: 450px) {
+  .figures > div {
+    width: 270px;
+  }
+  .figures > div:last-child {
+    transform: translateX(60%) translateY(10%) rotate(3deg);
+  }
+}
+
+/* ///////////////////////////////////////////////// 400PX */
+@media screen and (max-width: 400px) {
+  .figures > div:first-child {
+    transform: translateX(-65%) rotate(-2deg);
+  }
+  .slider {
+    background-position: 70% 220%;
   }
 }

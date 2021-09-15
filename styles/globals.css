@@ -35,7 +35,6 @@ p{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 0px 15px;
 }
 .col20 { width: 20%; }
 .col25 { width: 25%; }

@@ -8,9 +8,7 @@ export default function Prestations() {
       <div className="bloc" id="prestations">
           <h2 className="center">Mes prestations</h2>
           <div className="row">
-            <div className={`col col20 ${styles.colPlant} dispNone`}>
-              <Image src="/plant.svg" width={150} height={300} alt="Mains" />
-            </div>
+            <div className={`col col20 ${styles.colPlant} dispNone`}></div>
             <div className={`col col30 ${styles.colPresta}`}>
                 <div className={styles.imageParent}>
                   <Image src="/hands-2.jpg" width={900} height={600} layout="responsive" alt="Mains" />

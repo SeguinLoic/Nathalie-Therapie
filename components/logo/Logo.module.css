@@ -50,3 +50,10 @@
         max-width: 80px !important;
     }
 }
+
+/* ///////////////////////////////////////////////// 600PX */
+@media screen and (max-width: 600px) {
+    .logo > div:first-child {
+        max-width: 60px !important;
+    }
+}
