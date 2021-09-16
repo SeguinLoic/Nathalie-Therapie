@@ -57,3 +57,14 @@
         max-width: 60px !important;
     }
 }
+
+/* ///////////////////////////////////////////////// 400PX */
+@media screen and (max-width: 400px) {
+    .logo > div:first-child {
+        max-width: 45px !important;
+    }
+    .logoText {
+        padding-left: 10px;
+        line-height: 1.2em;
+    }
+}

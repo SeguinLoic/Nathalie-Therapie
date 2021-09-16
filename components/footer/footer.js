@@ -10,17 +10,17 @@ export default function Footer() {
     return (
         <div className={styles.footer} id="footer">
             <div className="row">
-                <div className="col col33">
+                <div className={`col col33 ${styles.colFooter}`}>
                     <Logo footer="footer" />
                 </div>
-                <div className="col col33">
+                <div className={`col col33 ${styles.colFooter}`}>
                     <span className={styles.titleFooter}>Cabinet</span>
                     <p className="content">
                         Centre de thérapie La Rebiolle<br/>
                         47 quater avenue de Genève, 74000 Annecy
                     </p>
                 </div>
-                <div className="col col33">
+                <div className={`col col33 ${styles.colFooter}`}>
                 <span className={styles.titleFooter}>Coordonnées</span>
                 <div className="col">
                     <Link href="tel:0610646323">

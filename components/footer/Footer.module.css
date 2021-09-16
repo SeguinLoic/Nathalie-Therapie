@@ -24,6 +24,9 @@
 .linkFooter {
     cursor: pointer;
 }
+.colFooter {
+  padding: 0px 15px;
+}
 
 /* ///////////////////////////////////////////////// 1500PX */
 @media screen and (max-width: 1500px) {

@@ -51,6 +51,12 @@
 a.scrollActive > span {
     width: 25px;
 }
+.onMobile {
+    display: none !important;
+}
+.picto {
+    display: none !important;
+}
 
 /* -- -- STICKY -- -- */
 .navigation.sticky {
@@ -88,13 +94,48 @@ a.scrollActive > span {
     }
     .navigation {
         padding: 0px 35px;
-      }
+    }
+    .onMobile {
+        display: flex !important;
+        border-radius: 35px;
+        background-color: #ff860b;
+        font-weight: 700;
+        padding: 10px 25px;
+        font-size: 0.9em;
+        cursor: pointer;
+    }
+    .menu {
+        height: auto;
+    }
+    .onMobile > div {
+        display: none !important;
+    }
 }
 
 /* ///////////////////////////////////////////////// 600PX */
 @media screen and (max-width: 600px) {
     .navigation {
         padding: 0px 25px;
+        position: absolute;
+    }
+}
+
+/* ///////////////////////////////////////////////// 500PX */
+@media screen and (max-width: 500px) {
+    .picto {
+        display: flex !important;
+    }
+    .txtNumber {
+        display: none !important;
+    }
+    .onMobile > div {
+        display: flex !important;
+    }
+    .onMobile {
+        display: flex !important;
+        border-radius: 0px !important;
+        background-color: transparent !important;
+        padding: 0px 15px !important;
     }
 }
 
