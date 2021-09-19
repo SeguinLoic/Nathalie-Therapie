@@ -9,7 +9,7 @@ import styles from "./Footer.module.css"
 export default function Footer() {
     return (
         <div className={styles.footer} id="footer">
-            <div className="row">
+            <div className={`row ${styles.rowFooter}`}>
                 <div className={`col col33 ${styles.colFooter}`}>
                     <Logo footer="footer" />
                 </div>

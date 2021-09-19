@@ -103,3 +103,10 @@ h2 { font-size: 1.6em; }
     display: none;
   }
 }
+
+/* ///////////////////////////////////////////////// 600PX */
+@media screen and (max-width: 600px) {
+  .bloc {
+    padding: 40px 25px;
+  }
+}

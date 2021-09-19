@@ -10,7 +10,6 @@
     padding-bottom: 15px;
 }
 .colCoord {
-    padding: 0px 10px;
     display: flex;
     line-height: 1em;
     align-items: center;
@@ -42,16 +41,55 @@
   } 
 }
   
-/* ///////////////////////////////////////////////// 1400PX */
+/* ///////////////////////////////////////////////// 1239PX */
 @media screen and (max-width: 1239px) {
   .footer {
     padding: 75px 50px;
   }
 }
 
-/* ///////////////////////////////////////////////// 1400PX */
-@media screen and (max-width: 1239px) {
+/* ///////////////////////////////////////////////// 900PX */
+@media screen and (max-width: 900px) {
+  .rowFooter {
+    flex-wrap: wrap;
+}
+  .colFooter {
+    width: 50%;
+  }
+  .colFooter:first-child {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+  }
+}
+
+/* ///////////////////////////////////////////////// 768PX */
+@media screen and (max-width: 768px) {
+  .colFooter {
+    padding: 0px;
+  }
   .footer {
-    padding: 35px 35px;
+    padding: 40px 35px;
+  }
+  .colFooter:first-child {
+    padding-bottom: 0px;
+  }
+  .colFooter {
+    width: 100%;
+  }
+}
+
+/* ///////////////////////////////////////////////// 600PX */
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 40px 25px;
+  }
+}
+
+/* ///////////////////////////////////////////////// 400PX */
+@media screen and (max-width: 400px) {
+  .colFooter:first-child {
+    align-items: flex-start;
   }
 }

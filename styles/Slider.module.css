@@ -131,6 +131,17 @@
   .figures > div:last-child {
     transform: translateX(80%) translateY(10%) rotate(3deg);
   }
+  .coltext {
+    align-items: center;
+    margin-bottom: 0px !important;
+    margin-top: 25px;
+  }
+  .titleSlider {
+    font-size: 2em;
+    line-height: 1.2em;
+    padding-bottom: 5px;
+    text-align: center;
+  }
 }
 
 /* ///////////////////////////////////////////////// 600PX */
@@ -154,6 +165,9 @@
 
 /* ///////////////////////////////////////////////// 450PX */
 @media screen and (max-width: 450px) {
+  .slider {
+    background-position: 69% 120%;
+  }
   .figures > div {
     width: 270px;
   }
@@ -168,6 +182,10 @@
     transform: translateX(-65%) rotate(-2deg);
   }
   .slider {
-    background-position: 70% 220%;
+    background-position: 69% 162%;
+  }
+  .titleSlider {
+    font-size: 1.5em;
+    line-height: 1.2em;
   }
 }
