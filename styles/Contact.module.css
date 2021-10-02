@@ -3,6 +3,7 @@
     background-position: 50% 50%;
     position: relative;
     padding: 0px; 
+    margin-top: 75px;
 }
 .blocContact:after {
     content: "";
@@ -63,5 +64,27 @@
 @media screen and (max-width: 768px) {
     .blocContact a {
         padding: 75px 35px;
+    }
+    .blocContact a {
+        font-size: 1.7em;
+        line-height: 1.3em;
+    }
+}
+
+/* ///////////////////////////////////////////////// 600PX */
+@media screen and (max-width: 600px) {
+    .blocContact a {
+        padding: 60px 25px;
+    }
+    .blocContact {
+        margin-top: 40px;
+    }
+}
+
+/* ///////////////////////////////////////////////// 400PX */
+@media screen and (max-width: 400px) {
+    .blocContact a {
+        font-size: 1.5em;
+        line-height: 1.3em;
     }
 }

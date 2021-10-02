@@ -1,0 +1,7 @@
+.intro {
+    background-image: url(../public/fond-h1.png);
+    background-position: 0% 0%;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    overflow: visible !important;
+}

@@ -36,6 +36,7 @@ p{
   flex-direction: column;
   align-items: flex-start;
 }
+.col10 { width: 10%; }
 .col20 { width: 20%; }
 .col25 { width: 25%; }
 .col20 { width: 20%; }
@@ -56,10 +57,14 @@ h1, h2, h3 {
   margin: 0px;
   padding-bottom: 25px;
 }
-h1 { font-size: 1.8em; }
-h2 { font-size: 1.6em; }
+h1 { font-size: 2.7em; }
+h2 { font-size: 2.2em; }
 .center {
   text-align: center;
+}
+
+.debutTitle {
+  color: #ff7887;
 }
 
 /* -- -- MEDIA QUERIES -- -- */ 
@@ -102,6 +107,16 @@ h2 { font-size: 1.6em; }
   .dispNone {
     display: none;
   }
+  .content {
+    line-height: 1.5em;
+  }
+  .center {
+    text-align: left;
+  } 
+  h1 {
+    font-size: 2.4em;
+  }
+  h2 { font-size: 1.9em; }
 }
 
 /* ///////////////////////////////////////////////// 600PX */

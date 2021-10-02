@@ -14,7 +14,7 @@
   font-weight: 700;
   padding-bottom: 15px;
   color: #ff7887;
-  padding-top: 165px;
+  padding-top: 200px;
 }
 .tarifs {
   font-style: italic;
@@ -45,16 +45,44 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -35%);
 }
 .colPlant {
   align-items: flex-end;
   justify-content: flex-end;
 }
 
+/* ///////////////////////////////////////////////// 1550pX */
+@media screen and (max-width: 1550px) {
+  .titlePresta {
+    padding-top: 150px;
+  }
+  .imageParent > div {
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* ///////////////////////////////////////////////// 1024PX */
+@media screen and (max-width: 1024px) {
+  .colPlant {
+    display: none;
+  }
+  .colPresta {
+    width: 50%;
+  }
+}
+
+/* ///////////////////////////////////////////////// 900PX */
+@media screen and (max-width: 900px) {
+  .imageParent {
+    height: 150px;
+  }
+}
+
 /* ///////////////////////////////////////////////// 768PX */
 @media screen and (max-width: 768px) {
   .colPresta {
     margin: 0px;
+    width: 100%;
   }
 }

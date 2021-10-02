@@ -8,8 +8,8 @@ export default function Prestations() {
       <div className="bloc" id="prestations">
           <h2 className="center">Mes prestations</h2>
           <div className="row">
-            <div className={`col col20 ${styles.colPlant} dispNone`}></div>
-            <div className={`col col30 ${styles.colPresta}`}>
+            <div className={`col col10 dispNone`}></div>
+            <div className={`col col40 ${styles.colPresta}`}>
                 <div className={styles.imageParent}>
                   <Image src="/hands-2.jpg" width={900} height={600} layout="responsive" alt="Mains" />
                 </div>
@@ -19,7 +19,7 @@ export default function Prestations() {
                 </p>
                 <p className={styles.tarifs}>70€</p>
             </div>
-            <div className={`col col30 ${styles.colPresta}`}>
+            <div className={`col col40 ${styles.colPresta}`}>
                 <div className={styles.imageParent}>
                   <Image src="/cigaret-2.jpg" width={900} height={600} layout="responsive" alt="Cigarette" />
                 </div>
@@ -30,7 +30,7 @@ export default function Prestations() {
                 </p>
                 <p className={styles.tarifs}>90€</p>
             </div>
-            <div className="col col20 dispNone"></div>
+            <div className={`col col10 dispNone`}></div>
           </div>
       </div>
     )

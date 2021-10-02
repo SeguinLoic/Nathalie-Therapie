@@ -9,29 +9,3 @@ export default function Contact() {
         </div>
     )
 }
-
-/*
-                    <form id="formContact">
-                        <div className="field">
-                            <label for="nom">Nom</label>
-                            <input type="text" id="nom"></input>
-                        </div>
-                        <div className="field">
-                            <label for="prenom">Prénom</label>
-                            <input type="text" id="prenom"></input>
-                        </div>
-                        <div className="field">
-                            <label htmlFor="phone">Téléphone</label>
-                            <input type="text" id="phone"></input>
-                        </div>
-                        <div className="field">
-                            <label for="mail">Mail</label>
-                            <input type="text" id="mail"></input>
-                        </div>
-                        <div className="field">
-                            <label for="message">Message</label>
-                            <textarea type="text" id="message"></textarea>
-                        </div>
-                        <button>Envoyer</button>
-                    </form>
-                    */
