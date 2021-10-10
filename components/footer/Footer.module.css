@@ -2,6 +2,7 @@
     padding: 50px 200px;
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 .titleFooter {
     font-size: 1.2em;
@@ -25,6 +26,14 @@
 }
 .colFooter {
   padding: 0px 15px;
+}
+.rowMentionsLegales {
+  margin-top: 35px;
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: center;
+  padding: 0px 120px;
+  line-height: 1.5em;
 }
 
 /* ///////////////////////////////////////////////// 1500PX */
@@ -52,7 +61,7 @@
 @media screen and (max-width: 900px) {
   .rowFooter {
     flex-wrap: wrap;
-}
+  }
   .colFooter {
     width: 50%;
   }
@@ -61,6 +70,9 @@
     display: flex;
     align-items: center;
     padding-bottom: 25px;
+  }
+  .rowMentionsLegales {
+    padding: 0px;
   }
 }
 
@@ -77,6 +89,9 @@
   }
   .colFooter {
     width: 100%;
+  }
+  .rowMentionsLegales {
+    text-align: left;
   }
 }
 

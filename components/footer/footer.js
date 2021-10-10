@@ -38,6 +38,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
+            <div className={styles.rowMentionsLegales}><p>En tant que thérapeute je n&apos;établis pas de diagnostics de santé. Mes soins ne se substituent pas aux traitements ou aux prescriptions médicales, mais les complètent efficacement. Si vous êtes malade ou souffrant, consultez votre médecin.</p></div>
         </div>
     )
 }
