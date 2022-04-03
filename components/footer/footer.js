@@ -14,13 +14,6 @@ export default function Footer() {
                     <Logo footer="footer" />
                 </div>
                 <div className={`col col33 ${styles.colFooter}`}>
-                    <span className={styles.titleFooter}>Cabinet</span>
-                    <p className="content">
-                        Centre de thérapie La Rebiolle<br/>
-                        47 quater avenue de Genève, 74000 Annecy
-                    </p>
-                </div>
-                <div className={`col col33 ${styles.colFooter}`}>
                 <span className={styles.titleFooter}>Coordonnées</span>
                 <div className="col">
                     <Link href="tel:0610646323">
@@ -36,6 +29,8 @@ export default function Footer() {
                         </p>
                     </Link>
                     </div>
+                </div>
+                <div className={`col col33 ${styles.colFooter}`}>
                 </div>
             </div>
             <div className={styles.rowMentionsLegales}><p>En tant que thérapeute je n&apos;établis pas de diagnostics de santé. Mes soins ne se substituent pas aux traitements ou aux prescriptions médicales, mais les complètent efficacement. Si vous êtes malade ou souffrant, consultez votre médecin.</p></div>
