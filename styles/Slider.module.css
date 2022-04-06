@@ -168,6 +168,9 @@
 
 /* ///////////////////////////////////////////////// 450PX */
 @media screen and (max-width: 450px) {
+  .figures {
+    height: 200px;
+  }
   .slider {
     background-position: 69% 120%;
   }
