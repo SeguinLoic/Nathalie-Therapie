@@ -28,16 +28,16 @@
   height: 500px;
   position: relative;
 }
-.figures > div {
+.figures > span {
   position: absolute !important;
   overflow: visible !important;
   width: 450px;
 }
-.figures > div:first-child {
+.figures > span:first-child {
   left: 50%;
   transform: translateX(-90%) rotate(-2deg);
 }
-.figures > div:last-child {
+.figures > span:last-child {
   right: 50%;
   transform: translateX(90%) translateY(10%) rotate(3deg);
 }
@@ -66,7 +66,7 @@
 
 /* ///////////////////////////////////////////////// 1700PX */
 @media screen and (max-width: 1700px) {
-  .figures > div {
+  .figures > span {
     width: 350px;
   }
   .figures {
@@ -86,10 +86,10 @@
 
 /* ///////////////////////////////////////////////// 1400PX */
 @media screen and (max-width: 1400px) {
-  .figures > div:first-child {
+  .figures > span:first-child {
     transform: translateX(-80%) rotate(-2deg);
   }
-  .figures > div:last-child {
+  .figures > span:last-child {
     transform: translateX(80%) translateY(10%) rotate(3deg);
   }
 }
@@ -103,19 +103,19 @@
 
 /* ///////////////////////////////////////////////// 1024PX */
 @media screen and (max-width: 1024px) {
-  .figures > div:first-child > div:first-child {
+  .figures > span:first-child > span:first-child {
     max-width: 90% !important;
   }
-  .figures > div:last-child > div:first-child  {
+  .figures > span:last-child > span:first-child  {
     max-width: 90% !important;
   }
   .figures {
     height: 350px;
   }
-  .figures > div:first-child {
+  .figures > span:first-child {
     transform: translateX(-70%) rotate(-2deg);
   }
-  .figures > div:last-child {
+  .figures > span:last-child {
     transform: translateX(70%) translateY(10%) rotate(3deg);
   }
 }
@@ -128,10 +128,10 @@
     background-position: 70% 120%;
     background-repeat: no-repeat;
   }
-  .figures > div:first-child {
+  .figures > span:first-child {
     transform: translateX(-80%) rotate(-2deg);
   }
-  .figures > div:last-child {
+  .figures > span:last-child {
     transform: translateX(80%) translateY(10%) rotate(3deg);
   }
   .coltext {
@@ -149,16 +149,16 @@
 
 /* ///////////////////////////////////////////////// 600PX */
 @media screen and (max-width: 600px) {
-  .figures > div:first-child {
+  .figures > span:first-child {
     transform: translateX(-70%) rotate(-2deg);
   }
-  .figures > div:last-child {
+  .figures > span:last-child {
     transform: translateX(70%) translateY(10%) rotate(3deg);
   }
-  .figures > div {
+  .figures > span {
     width: 300px;
   }
-  .figures > div:last-child > div:first-child  {
+  .figures > span:last-child > div:first-child  {
     max-width: 100% !important;
   }
   .slider {
@@ -171,17 +171,17 @@
   .slider {
     background-position: 69% 120%;
   }
-  .figures > div {
+  .figures > span {
     width: 270px;
   }
-  .figures > div:last-child {
+  .figures > span:last-child {
     transform: translateX(60%) translateY(10%) rotate(3deg);
   }
 }
 
 /* ///////////////////////////////////////////////// 400PX */
 @media screen and (max-width: 400px) {
-  .figures > div:first-child {
+  .figures > span:first-child {
     transform: translateX(-65%) rotate(-2deg);
   }
   .slider {
